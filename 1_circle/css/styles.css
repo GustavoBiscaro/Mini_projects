@@ -1,0 +1,17 @@
+body {
+    box-sizing: border-box;
+}
+#circle {
+    width: 150px;
+    height: 150px;
+    background-color: purple;
+    border-radius: 50%;
+}
+
+#circle2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:2px solid purple;
+
+}
