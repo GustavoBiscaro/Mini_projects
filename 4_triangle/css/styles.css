@@ -1,0 +1,33 @@
+body {
+    margin: 50px;
+}
+
+div {
+    display: inline-block;
+    margin: 50px;
+    width: 0;
+    height: 0;
+}
+
+#triangulo-cima {
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;   
+    border-bottom: 100px solid red;
+}
+
+#triangulo-baixo {
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;   
+    border-top: 100px solid blue;
+}
+
+#triangulo-direita {
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;   
+    border-left: 100px solid purple;
+}
+#triangulo-esquerda {
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;   
+    border-right: 100px solid #4a0cdc;
+}
